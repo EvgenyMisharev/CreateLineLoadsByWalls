@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:CreateLineLoadsByWalls"
              mc:Ignorable="d" 
              Title="Линейная нагрузка по стене"
-             WindowStyle="ToolWindow" WindowStartupLocation="CenterScreen"
+             WindowStyle="SingleBorderWindow" ResizeMode="NoResize" Icon="Resources/citrus.ico" WindowStartupLocation="CenterScreen"
              Height="300" Width="600" MinHeight="300" MinWidth="600" MaxHeight="300"
              KeyDown="Window_KeyDown">
     <Grid>
@@ -19,9 +19,9 @@
 
         <Label x:Name="label_Fx" Content="Fx" Margin="10,135,0,0" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top" Width="30" VerticalContentAlignment="Center"/>
         <TextBox x:Name="textBox_Fx" HorizontalAlignment="Left" Height="25" Margin="40,135,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="50" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-        <Label x:Name="label_Fy" Content="Fx" Margin="10,165,0,0" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top" Width="30" VerticalContentAlignment="Center"/>
+        <Label x:Name="label_Fy" Content="Fy" Margin="10,165,0,0" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top" Width="30" VerticalContentAlignment="Center"/>
         <TextBox x:Name="textBox_Fy" HorizontalAlignment="Left" Height="25" Margin="40,165,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="50" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-        <Label x:Name="label_Fz" Content="Fx" Margin="10,195,0,0" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top" Width="30" VerticalContentAlignment="Center"/>
+        <Label x:Name="label_Fz" Content="Fz" Margin="10,195,0,0" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top" Width="30" VerticalContentAlignment="Center"/>
         <TextBox x:Name="textBox_Fz" HorizontalAlignment="Left" Height="25" Margin="40,195,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="50" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
 
 
